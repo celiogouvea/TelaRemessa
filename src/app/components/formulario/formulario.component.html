@@ -1,0 +1,67 @@
+<div class="header">
+    <p class="text-muted m-0">Cemu</p>
+    <div>
+        <button class="btn btn-primary me-2">Salvar</button>
+        <button class="btn btn-success me-2">Imprimir</button>
+        <button class="btn btn-danger me-2">Cancelar</button>
+    </div>
+</div>
+
+<br />
+<br />
+
+<div class="form-container">
+    <div class="row">
+        <!-- Seção 1 - Aumentada -->
+        <div class="col-lg-5 col-md-6 p-2 section">
+            <div class="d-flex w-100">
+                <div class="d-flex flex-column me-2 w-40">
+                    <div>
+                        <label for="uniOrgigin" class="form-label">Unidade de Origem:</label>
+                        <input type="text" id="uniOrgigin" class="form-control mb-2" placeholder="input"/>
+                    </div>
+                    <div>
+                        <label for="uniDestino" class="form-label">Unidade de Destino:</label>
+                        <input type="text" id="uniDestino" class="form-control" placeholder="input" />
+                    </div>
+                </div>
+                <textarea class="form-control w-50" placeholder="Comentario sobre a remessa"></textarea>
+            </div>
+        </div>
+
+        <!-- Seção 2 - Reduzida -->
+        <div class="col-lg-2 col-md-6 p-2 section">
+            <div class="d-flex flex-column me-2 w-50">
+                <label for="edit" class="form-label">Status da Remessa:</label>
+            <button class="btn btn-primary me-2">Status</button>
+        </div>
+            <div class="d-flex flex-column me-2 w-50">
+                <div>
+                    <label for="edit" class="form-label">Editado Por:</label>
+                    <input type="text" id="edit" class="form-control" placeholder="input" />
+                </div>
+                <div>
+                    <label for="dataEdit" class="form-label">Data de edição:</label>
+                    <input type="date" id="dataEdit" class="form-control" placeholder="input" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção 3 - Aumentada -->
+        <div class="col-lg-5 col-md-6 p-2 section">
+            <div class="d-flex w-100">
+                <div class="d-flex flex-column me-2 w-40">
+                    <div>
+                        <label for="review" class="form-label">Revisado Por:</label>
+                        <input type="text" id="review" class="form-control" placeholder="input" />
+                    </div>
+                    <div>
+                        <label for="dataReview" class="form-label">Data de Revisão:</label>
+                        <input type="date" id="dataReview" class="form-control" />
+                    </div>
+                </div>
+                <textarea class="form-control w-50" placeholder="Comentario sobre a revisão"></textarea>
+            </div>
+        </div>
+    </div>
+</div>
